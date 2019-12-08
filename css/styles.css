@@ -1,0 +1,21 @@
+@import "reset.css";
+@import "status-bar.css";
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
+@import "header.css";
+@import "nav-bar.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "open Sans";
+}
+
+a {
+  color: inherit;
+  /* 이것은 부모 요소를 따른다는것임. 계승 */
+}
