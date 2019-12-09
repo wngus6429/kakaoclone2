@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap");
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
 
 * {
   box-sizing: border-box;

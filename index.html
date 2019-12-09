@@ -40,25 +40,32 @@
     </header>
     <main class="chats">
       <ul class="chats__list">
-        <li class="chats__chat chat">
+        <div class="chats__chat chat">
           <a href="chat.html">
-            <div class="chat__column">
-              <img class="chat__avatar g-avatar" src="images/juhyun.jpg" alt="" />
-              <div class="chat__content">
-                <span class="chat__username">
-                  Lynn
-                </span>
-                <span class="chat__preview">Going home</span>
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img src="images/juhyun.jpg" alt="" class="g-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Lynn
+                  </span>
+                  <span class="friend__bottom-text">
+                    Going home!
+                  </span>
+                </div>
               </div>
-            </div>
-            <div class="chat__column">
-              <span class="chat__timestamp">Yesterday</span>
+              <div class="friend__column">
+<div class="friend__now-listening">
+  <span class="chat__timestamp">
+    March 8
+  </span>
+</div>
+              </div>
             </div>
           </a>
         </li>
       </ul>
     </main>
-
     <nav class="nav">
       <!--맨 밑에 아이콘 4개.-->
       <ul class="nav__list">
@@ -66,7 +73,9 @@
           <a href="friends.html" class="nav__list-link"><i class="fas fa-user-tie"></i></a>
         </li>
         <li class="nav__list-item">
-          <a href="index.html" class="nav__list-link"> <i class="far fa-comments"></i></a>
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
+            <i class="far fa-comments"></i></a>
         </li>
         <li class="nav__list-item">
           <a href="find.html" class="nav__list-link"> <i class="fas fa-search"></i></a>
