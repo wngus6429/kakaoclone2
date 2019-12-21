@@ -26,3 +26,18 @@ a {
   /* 이것은 부모 요소를 따른다는것임. 계승 */
   text-decoration: none;
 }
+
+@keyframes fadeIn {        
+   /* 이걸 함으로서 모든 페이지 아이콘과 요소들이 밑에서 올라오는 효과 */
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+main {
+  animation: fadeIn 0.5s ease-in-out;
+}
