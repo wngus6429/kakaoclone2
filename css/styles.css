@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 * {
   box-sizing: border-box;
@@ -27,8 +28,8 @@ a {
   text-decoration: none;
 }
 
-@keyframes fadeIn {        
-   /* 이걸 함으로서 모든 페이지 아이콘과 요소들이 밑에서 올라오는 효과 */
+@keyframes fadeIn {
+  /* 이걸 함으로서 모든 페이지 아이콘과 요소들이 밑에서 올라오는 효과 */
   from {
     opacity: 0;
     transform: translateY(50px);
