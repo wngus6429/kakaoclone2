@@ -5,9 +5,12 @@
   margin: 20px 0px;
 }
 
-.friends__plus .firends__title,
-.frineds__list .firends__title {
-  font-size: 14px;
+/* .friends__plus.firends__title,
+.frineds__list.firends__title {          대체 뭐가 다르지?? */
+
+.friends__title1,
+.friends__title2 {
+  font-size: 15px;
   opacity: 0.6;
   margin-bottom: 10px;
 }
